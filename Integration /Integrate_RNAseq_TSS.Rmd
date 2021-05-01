@@ -13,7 +13,7 @@ Previously, RNA-sequencing has been done on two mutant strains of *S. venezuelae
 
 Rather than re-computing the RNA-seq analysis for the annotated genes in *S. venezuelae*, I am going to read in previously computed DESeq2 outputs and subset the data to see if there are any meaningful comparisons to be made. 
 
-#### Read in the DESeq2 outputs for RNaseIII mutant 
+#### Read in the DESeq2 outputs for RNaseIII mutant
 
 ```{r}
 #Read in DESeq2 outputs
