@@ -8,9 +8,7 @@ The data analysis is split into three main parts
 2) RNA-sequencing analysis of RNase III and RNase J mutant strains (RNA_seq)
 3) Integration of dRNA-sequencing and RNA-sequencing data (Integration)
 
-For markdown files of these please look in the corresponding directories. 
-
-The assocaited raw files are too large to be uploaded to this repository, but the important input/outputs are provided here. 
+For markdown files of these please look in the corresponding directories. The assocaited raw files are too large to be uploaded to this repository, but the important input/outputs are provided here. 
 
 
 
