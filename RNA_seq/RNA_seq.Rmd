@@ -3,8 +3,8 @@ title: "RNA_sequencing analysis"
 author: "Meghan Pepler"
 date: "24/04/2021"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 ## RNA-sequencing analysis of two *S. venezuelae* strains: 
 #### 1) RNase III mutant: $\Delta$*rnc*
