@@ -3,8 +3,8 @@ title: "RNA_seq_TSS_integration"
 author: "Meghan Pepler"
 date: "27/04/2021"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ## Integration part 1

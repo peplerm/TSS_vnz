@@ -1,0 +1,12 @@
+INFO [2021-05-01 00:09:28] $x
+INFO [2021-05-01 00:09:28] list(primary_10h$V15, primary_14h$V15, primary_18h$V15, primary_24h$V15)
+INFO [2021-05-01 00:09:28] 
+INFO [2021-05-01 00:09:28] $category.names
+INFO [2021-05-01 00:09:28] c("10h", "14h", "18h", "24h")
+INFO [2021-05-01 00:09:28] 
+INFO [2021-05-01 00:09:28] $filename
+INFO [2021-05-01 00:09:28] [1] "~/Desktop/TSS_vnz/Images/primary_timpoints.jpg"
+INFO [2021-05-01 00:09:28] 
+INFO [2021-05-01 00:09:28] $fill
+INFO [2021-05-01 00:09:28] myCol4
+INFO [2021-05-01 00:09:28] 

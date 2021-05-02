@@ -1,0 +1,13 @@
+INFO [2021-04-30 23:59:43] $x
+INFO [2021-04-30 23:59:43] list(downstream_10h$V15, downstream_14h$V15, downstream_18h$V15, 
+INFO [2021-04-30 23:59:43]     downstream_24h$V15)
+INFO [2021-04-30 23:59:43] 
+INFO [2021-04-30 23:59:43] $category.names
+INFO [2021-04-30 23:59:43] c("10h", "14h", "18h", "24h")
+INFO [2021-04-30 23:59:43] 
+INFO [2021-04-30 23:59:43] $filename
+INFO [2021-04-30 23:59:43] [1] "~/Desktop/TSS_vnz/Images/downstream_timepoints.jpg"
+INFO [2021-04-30 23:59:43] 
+INFO [2021-04-30 23:59:43] $fill
+INFO [2021-04-30 23:59:43] myCol4
+INFO [2021-04-30 23:59:43] 

@@ -1,0 +1,12 @@
+INFO [2021-05-02 00:23:35] $x
+INFO [2021-05-02 00:23:35] list(internal_10h$V15, internal_14h$V15, internal_18h$V15, internal_24h$V15)
+INFO [2021-05-02 00:23:35] 
+INFO [2021-05-02 00:23:35] $category.names
+INFO [2021-05-02 00:23:35] c("10h", "14h", "18h", "24h")
+INFO [2021-05-02 00:23:35] 
+INFO [2021-05-02 00:23:35] $filename
+INFO [2021-05-02 00:23:35] [1] "~/Desktop/TSS_vnz/Images/internal_timepoints.jpg"
+INFO [2021-05-02 00:23:35] 
+INFO [2021-05-02 00:23:35] $fill
+INFO [2021-05-02 00:23:35] myCol4
+INFO [2021-05-02 00:23:35] 

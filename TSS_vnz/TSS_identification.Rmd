@@ -1,9 +1,9 @@
 ---
 title: "TSS analysis in *Streptomyces venezuelae*"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
-  pdf_document: default
 ---
 Time to get started! There are three main sections in this analysis: 
  1) TSS identification 

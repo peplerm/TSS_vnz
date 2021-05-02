@@ -1,0 +1,13 @@
+INFO [2021-05-02 00:25:11] $x
+INFO [2021-05-02 00:25:11] list(internal_antisense_10h$V15, internal_antisense_14h$V15, 
+INFO [2021-05-02 00:25:11]     internal_antisense_18h$V15, internal_antisense_24h$V15)
+INFO [2021-05-02 00:25:11] 
+INFO [2021-05-02 00:25:11] $category.names
+INFO [2021-05-02 00:25:11] c("10h", "14h", "18h", "24h")
+INFO [2021-05-02 00:25:11] 
+INFO [2021-05-02 00:25:11] $filename
+INFO [2021-05-02 00:25:11] [1] "~/Desktop/TSS_vnz/Images/internal_antisense_timepoints.jpg"
+INFO [2021-05-02 00:25:11] 
+INFO [2021-05-02 00:25:11] $fill
+INFO [2021-05-02 00:25:11] myCol4
+INFO [2021-05-02 00:25:11] 

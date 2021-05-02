@@ -1,0 +1,12 @@
+INFO [2021-04-30 23:59:50] $x
+INFO [2021-04-30 23:59:50] list(primary_24h$V4, all_antisense_24h$V4, internal_24h$V4)
+INFO [2021-04-30 23:59:50] 
+INFO [2021-04-30 23:59:50] $category.names
+INFO [2021-04-30 23:59:50] c("P", "A", "I")
+INFO [2021-04-30 23:59:50] 
+INFO [2021-04-30 23:59:50] $filename
+INFO [2021-04-30 23:59:50] [1] "~/Desktop/TSS_vnz/Images/24h_TSS.jpg"
+INFO [2021-04-30 23:59:50] 
+INFO [2021-04-30 23:59:50] $fill
+INFO [2021-04-30 23:59:50] myCol3
+INFO [2021-04-30 23:59:50] 
