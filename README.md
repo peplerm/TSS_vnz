@@ -10,7 +10,7 @@ The data analysis is split into three main parts
 
 For markdown files of these please look in the corresponding directories. 
 
-The assocaited raw files are too large to be uploaded to this repository, but many of the important input/outputs are porvided here. 
+The assocaited raw files are too large to be uploaded to this repository, but many of the important input/outputs are provided here. 
 
 
 
