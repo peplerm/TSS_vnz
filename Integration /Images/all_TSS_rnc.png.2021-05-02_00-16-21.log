@@ -1,0 +1,12 @@
+INFO [2021-05-02 00:16:21] $x
+INFO [2021-05-02 00:16:21] list(all_antisense$V15, all_rnc$gene.ID)
+INFO [2021-05-02 00:16:21] 
+INFO [2021-05-02 00:16:21] $category.names
+INFO [2021-05-02 00:16:21] c("TSS", "rnc")
+INFO [2021-05-02 00:16:21] 
+INFO [2021-05-02 00:16:21] $filename
+INFO [2021-05-02 00:16:21] [1] "~/Desktop/Integration/Images/all_TSS_rnc.png"
+INFO [2021-05-02 00:16:21] 
+INFO [2021-05-02 00:16:21] $fill
+INFO [2021-05-02 00:16:21] c("light blue", "pink")
+INFO [2021-05-02 00:16:21] 

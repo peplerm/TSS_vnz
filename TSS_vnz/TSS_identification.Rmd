@@ -1,9 +1,9 @@
 ---
 title: "TSS analysis in *Streptomyces venezuelae*"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 ---
 Time to get started! There are three main sections in this analysis: 
  1) TSS identification 
@@ -670,14 +670,15 @@ orphan_18h <- read.delim("~/Desktop/TSS_vnz/orphan_TSS/orphan_18h_sort.bed", hea
 orphan_24h <- read.delim("~/Desktop/TSS_vnz/orphan_TSS/orphan_24h_sort.bed", header = F, sep = '\t')
 ```
 #### .Bed to .GFF conversion
+
 Now lets consider what has to change to make it .gff file format: 
 1) **seqname**: the first column is the same! 
 2) **source** - not the same. Need to add a column that just says "TSSAR" the whole way down
 3) **feature** - not the same. Need to add a column that just says "orphan_TSS" the whole way down
-4) **start** - got it! TSS_vh$V2 (start)
-5) **end** - got it! TSS_vh$V3 (end)
+4) **start** - got it! TSS_xh$V2 (start)
+5) **end** - got it! TSS_xh$V3 (end)
 6) **score** - got it! TSS_xh$V5 (score)
-7) **strand** - got it! TSSxh$V6 (strand)
+7) **strand** - got it! TSS_xh$V6 (strand)
 8) **frame** - One of '0', '1' or '2'. '0'. Bed files are base 1 so '1' the whole way.
 9) **attribute** - I'll use TSS_xh$V4 (the name of the TSS in that time-point for reference)
 

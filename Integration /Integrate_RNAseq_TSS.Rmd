@@ -3,8 +3,8 @@ title: "RNA_seq_TSS_integration"
 author: "Meghan Pepler"
 date: "27/04/2021"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ## Integration part 1
@@ -283,13 +283,11 @@ write.csv(spore_24hTSS,
 
 The next thing we are most interested in (biologically as something that is cool) is to follow up on the orphan TSSs which are differentially expressed in the RNase III and RNase J mutants compared to the WT. 
 
-We are also interested in characterizing whether these TSSs correspond to the transcription of a true ncRNA or long 5' UTR (all we know currently is that they are >250bp upstream of a gene). 
+We are also interested in characterizing whether these TSSs correspond to the transcription of a true ncRNA. These TSSs could also drive the expressed of other transctipts, for example as primary TSSs with long 5' UTRs (all we know currently is that they are >250bp away from the nearest sense-gene and >40bp from the nearest antisense-gene). 
 
 It will take several steps to answer this: 
 
-1) Filter the TSS .bed file by those TSSs which are deferentially expressed in the RNA-sequencing data-set 
-
-2) Use the bedtools closest function, to call the nearest downstream gene and the distance between the gene and TSS 
+1) Use the bedtools closest function to call the nearest downstream gene and the distance between the gene and TSS 
 
 3) Filter the orphan TSSs whose closest downstream gene also exists in the "primary" TSS data-set. This would indicate that the gene in question has its own primary TSS, and thus the expression of the orphan TSS drives the expression of an independent transcript 
 

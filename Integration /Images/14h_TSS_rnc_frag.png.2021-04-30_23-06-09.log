@@ -1,0 +1,12 @@
+INFO [2021-04-30 23:06:09] $x
+INFO [2021-04-30 23:06:09] list(all_antisense_14h$V15, rnc_fragmentation$gene.ID)
+INFO [2021-04-30 23:06:09] 
+INFO [2021-04-30 23:06:09] $category.names
+INFO [2021-04-30 23:06:09] c("14h", "frag")
+INFO [2021-04-30 23:06:09] 
+INFO [2021-04-30 23:06:09] $filename
+INFO [2021-04-30 23:06:09] [1] "~/Desktop/Integration/Images/14h_TSS_rnc_frag.png"
+INFO [2021-04-30 23:06:09] 
+INFO [2021-04-30 23:06:09] $fill
+INFO [2021-04-30 23:06:09] c("yellow", "orange")
+INFO [2021-04-30 23:06:09] 

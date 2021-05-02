@@ -1,0 +1,12 @@
+INFO [2021-05-01 00:04:40] $x
+INFO [2021-05-01 00:04:40] list(all_antisense_10h$V15, rnc_vegetative$gene.ID)
+INFO [2021-05-01 00:04:40] 
+INFO [2021-05-01 00:04:40] $category.names
+INFO [2021-05-01 00:04:40] c("10h", "veg")
+INFO [2021-05-01 00:04:40] 
+INFO [2021-05-01 00:04:40] $filename
+INFO [2021-05-01 00:04:40] [1] "~/Desktop/Integration/Images/10h_TSS_rnc_veg.png"
+INFO [2021-05-01 00:04:40] 
+INFO [2021-05-01 00:04:40] $fill
+INFO [2021-05-01 00:04:40] c("red", "purple")
+INFO [2021-05-01 00:04:40] 

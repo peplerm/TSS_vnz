@@ -572,7 +572,7 @@ spore_24hTSS &lt;- merge(rnc_sporulating,
                     by.y = &quot;V15&quot;)</code></pre>
 </div>
 <div id="write-csvs-for-these-data-sets" class="section level4">
-<h4>Write csv’s for these data sets</h4>
+<h4>Write csvs for these data sets</h4>
 <pre class="r"><code>write.csv(veg_10hTSS, 
           file = &quot;~/Desktop/Integration/rnc_antisenseTSS/veg_10hTSS.csv&quot;, 
           quote = FALSE, 
@@ -603,11 +603,10 @@ write.csv(spore_24hTSS,
 <div id="integration-part-2" class="section level2">
 <h2>Integration part 2!</h2>
 <p>The next thing we are most interested in (biologically as something that is cool) is to follow up on the orphan TSSs which are differentially expressed in the RNase III and RNase J mutants compared to the WT.</p>
-<p>We are also interested in characterizing whether these TSSs correspond to the transcription of a true ncRNA or long 5’ UTR (all we know currently is that they are &gt;250bp upstream of a gene).</p>
+<p>We are also interested in characterizing whether these TSSs correspond to the transcription of a true ncRNA. These TSSs could also drive the expressed of other transctipts, for example as primary TSSs with long 5’ UTRs (all we know currently is that they are &gt;250bp away from the nearest sense-gene and &gt;40bp from the nearest antisense-gene).</p>
 <p>It will take several steps to answer this:</p>
 <ol style="list-style-type: decimal">
-<li><p>Filter the TSS .bed file by those TSSs which are deferentially expressed in the RNA-sequencing data-set</p></li>
-<li><p>Use the bedtools closest function, to call the nearest downstream gene and the distance between the gene and TSS</p></li>
+<li><p>Use the bedtools closest function to call the nearest downstream gene and the distance between the gene and TSS</p></li>
 <li><p>Filter the orphan TSSs whose closest downstream gene also exists in the “primary” TSS data-set. This would indicate that the gene in question has its own primary TSS, and thus the expression of the orphan TSS drives the expression of an independent transcript</p></li>
 <li><p>Those TSSs whose closest downstream gene does not have its own primary TSS are likely to initiate the expression of a long 5’UTR in addition to the gene itself. These can be filtered into their own table with the distance of the 5’UTR (between the TSS and the gene). For those that are up-regulated in the RNase III data-set, it may be worthwhile to see if any secondary structure is predicted for the inter-feature regions that could provide a dsRNA binding locus for RNase III.</p></li>
 </ol>
@@ -791,7 +790,7 @@ ColNames &lt;- c(&quot;TSS_ID&quot;, &quot;baseMean&quot;, &quot;log2FC&quot;, &
 rnc_diff_ncRNAs &lt;- `colnames&lt;-`(rnc_diff_ncRNAs, ColNames)
 rnj_diff_ncRNAs &lt;- `colnames&lt;-`(rnj_diff_ncRNAs, ColNames)
 
-#All done making them pretty! write csv's 
+#All done making them pretty! write csvs 
 
 write.csv(rnc_diff_ncRNAs, 
           &quot;~/Desktop/Integration/rnc_diff_ncRNAs.csv&quot;, 
@@ -902,7 +901,7 @@ UTR_24h &lt;- `colnames&lt;-`(UTR_24h, UTR_colnames)</code></pre>
 </div>
 </div>
 <div id="now-to-write-the-final-csvs-for-this-analysis" class="section level3">
-<h3>Now to write the final csv’s for this analysis!!!</h3>
+<h3>Now to write the final csvs for this analysis!!!</h3>
 <pre class="r"><code>write.csv(UTR_10h, 
           &quot;~/Desktop/Integration/UTR_10h.csv&quot;, 
           row.names = FALSE)
